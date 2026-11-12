@@ -5,22 +5,103 @@
     <title>Bolo de Chocolate</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        nav a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bolder;
+        }
+
+        nav ul{
+        }
+
+        header {
+            background-color: rgb(83, 67, 52);
+            padding: 10px;
+        }
+
+        header li{
+            color: wheat;
+            
+        }
+
+        header ul{
+            display: flex;
+            gap: 20px;
+            list-style-type: none;
+        }
+
+
+        body{
+            background-color: rgb(158, 133, 110);
+            margin: 0;
+        }
+
+        main{
+            width: 1000px;
+            background-color: beige;
+            margin: auto;
+            padding: 0 20px 10px 20px;
+        }
+
+        table{
+            width: 100%;
+        }
+
+        img, iframe{
+            width: 400px;
+            height: 300px;
+            display: block;
+            margin: auto ;
+            margin-top: 20px;
+        }
+
+        h1{
+            text-align: center;
+            font-size: 40px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        h2{
+            color: rgb(216, 200, 188);
+            text-align: center;
+            background-color:  rgb(83, 67, 52);
+            text-transform: uppercase;
+        }
+
+        footer{
+            background-color: rgb(83, 67, 52);
+            color: beige;
+            padding: 40px;
+            text-align: center;
+        }
+    </style>
+
 </head>
 
 <body>
     <header>
         <nav>
-        <ul>
-            <li>Salada de Frutas</li>
-            <li>Maionese Temperada</li>
-        </ul>
+            <ul>
+                <li><a href="saladadefruta.html">Salade de Frutas</a></li>
+                <li><a href="maionesetemp.html">Maionese Temperada</a></li>
+            </ul>
         </nav>
-        <img src="img/banner.webp" alt="banner do site">
     </header>
+
+
 
     <main>
         <h1>Bolo de Chocolate</h1>
-        <table border="2">
+        <table border="1">
             <tr>
                 <th>Dificuldade</th>
                 <th>Porções</th>
@@ -34,6 +115,11 @@
         </table>
 
         <img src="img/bolochocolate.jpg" alt="Bolo de Chocolate" width="200">
+         <iframe width="320" height="215" src="https://www.youtube.com/embed/KnR8qB9p0WY?si=Vk9wvvUns9VBKLmP"
+            title="Video Receita Bolo de Chocolate" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
 
         <h2>Ingredientes</h2>
         <ul>
@@ -53,12 +139,13 @@
             <li>Despeje a massa em uma forma untada e asse em forno médio-alto(200) preaquecido por 40 Minutos.</li>
             <li>Desenforme ainda quente.</li>
         </ol>
-        <iframe width="320" height="215" src="https://www.youtube.com/embed/KnR8qB9p0WY?si=Vk9wvvUns9VBKLmP"
-            title="Video Receita Bolo de Chocolate" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-        </iframe>
+       
     </main>
+
+
+
+
+
 
     <footer>
         <p>Direitos autorais 2026</p>

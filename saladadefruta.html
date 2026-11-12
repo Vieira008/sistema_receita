@@ -4,21 +4,99 @@
         <meta charset="UTF-8">
         <title>salada de frutas</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            *{
+                box-sizing: border-box;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+
+            nav a{
+                color: #ffff;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: bolder;
+            }
+
+            header {
+                background-color: rgb(236, 114, 114);
+                padding: 10px;
+            }
+
+            header li{
+                color: rgb(248, 255, 186);
+            }
+
+            header ul{
+                display: flex;
+                gap: 20px;
+                list-style-type: none;
+            }
+
+            body{
+                background-color: rgb(245, 188, 82);
+                margin: 0;
+            }
+
+            main{
+                width: 1000px;
+                background-color: khaki;
+                margin: auto;
+                padding: 0 20PX 10PX 20PX;
+            }
+
+            table{
+                width: 100%;
+            }
+
+            table td{
+                text-align: center;
+            }
+
+            img, iframe{
+                width: 400px;
+                height: 300px;
+                display: block;
+                margin: auto;
+                margin-top: 10px;
+            }
+
+            h1{
+                text-align: center;
+                font-size: 40px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+            }
+
+            h2{
+                background-color: rgb(236, 114, 114);
+                color: khaki;
+                text-align: center;
+                text-transform: uppercase;
+
+            }
+
+            footer{
+                 background-color: rgb(236, 114, 114);
+                 text-align: center;
+                 padding: 40px;
+                 color: khaki;
+            }
+        </style>
     </head>
 <body>
 <header>
     <nav>
 <ul>
-    <li>Receita Maionese Temperada</li>
-    <li>Receita Bolo de Chocolate</li>
+    <li><a href="maionesetemp.html">Maionese Temperada</a></li>
+    <li><a href="bolodechocolate.html">Bolo de Chocolate</a></li>
 </ul>
 </nav>
-    <img src="img/banner.webp" alt="banner do site">
 </header>
 
  <main>
     <h1>Salada de Frutas</h1>
-    <table border="2">
+    <table border="1">
     <tr>
         <th>Dificuldade</th>
     </tr>
@@ -28,7 +106,8 @@
     </table>
 
     <img src="img/saladadefruta.jpg" alt="Salada de Frutas" width="230" height="160">
-
+    <iframe width="230" height="160" src="https://www.youtube.com/embed/YEotJfVW02Q" title="Video Salada de Frutas">
+    </iframe>
     <h2>Ingredientes</h2>
     <ul>
         <li>Banana, maçã, laranja, morango, abacaxi, mamão, manga, kiwi e uvas.</li>
@@ -49,8 +128,6 @@
         <li>Evite melancia e melão se quiser maior durabilidade, pois soltam muita água.</li>
         <li>Hortelã, granola ou iogurte podem ser adicionados para variar.</li>
     </ol>
-    <iframe width="320" height="200" src="https://www.youtube.com/embed/YEotJfVW02Q" title="Video Salada de Frutas">
-    </iframe>
 </main>
 
 <footer>
